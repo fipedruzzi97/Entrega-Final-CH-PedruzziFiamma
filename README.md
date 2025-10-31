@@ -1,255 +1,147 @@
-# Rojo Carmín - Entrega Final CoderHouse# Rojo Carmín - Entrega Final CoderHouse
+# 🎨 Rojo Carmín - Proyecto Final CoderHouse
 
+## 📋 Descripción del Proyecto
 
+**Rojo Carmín** es un sitio web profesional de diseño y arquitectura desarrollado como proyecto final del curso de Desarrollo Web en CoderHouse. El sitio presenta una plataforma moderna y elegante dedicada al mundo del diseño contemporáneo, con secciones especializadas en noticias destacadas, charlas de diseño (Design Talks), galería interactiva y formulario de contacto.
 
-## 📋 Descripción del Proyecto## 📋 Descripción del Proyecto
+## 🌐 Demo en Vivo
 
+Puedes ver el sitio web en funcionamiento aquí: **[https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/](https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/)**
 
+## ✨ Características Principales
 
-**Rojo Carmín** es un sitio web de diseño y arquitectura desarrollado como proyecto final del curso de Desarrollo Web en CoderHouse. El sitio presenta una plataforma moderna y elegante dedicada al mundo del diseño, con secciones especializadas en destacados, charlas de diseño (Design Talks), galería y contacto.**Rojo Carmín** es un sitio web de diseño y arquitectura desarrollado como proyecto final del curso de Desarrollo Web en CoderHouse. El sitio presenta una plataforma moderna y elegante dedicada al mundo del diseño, con secciones especializadas en destacados, charlas de diseño (Design Talks), galería y contacto.
+- **🎯 Diseño Responsivo**: Perfecta adaptación a dispositivos móviles, tablets y desktop
+- **🧭 Navegación Intuitiva**: Menú de navegación limpio con anclas internas funcionales
+- **🎨 Secciones Especializadas**:
+  - **Noticias Destacadas**: Contenido actualizado sobre arte y diseño
+  - **Design Talks**: Perfiles detallados de diseñadores reconocidos (Patrick Jouin, Snøhetta, Estudio Campana, Aires Mateus)
+  - **Galería Interactiva**: Proyectos organizados por categorías con offcanvas
+  - **Formulario de Contacto**: Interfaz moderna para comunicación
+- **🔍 Optimización SEO**: Meta tags específicos, títulos jerárquicos y estructura semántica
+- **♿ Accesibilidad Web**: Atributos ARIA, roles semánticos y navegación por teclado
+- **🎭 Tipografías Modernas**: Integración con Google Fonts (Bebas Neue, Poppins)
+- **🔄 Animaciones Dinámicas**: Transiciones suaves y efectos hover profesionales
 
+## 🛠️ Tecnologías Implementadas
 
-
-## 🌐 Demo en Vivo## 🌐 Demo en Vivo
-
-
-
-Puedes ver el sitio web en funcionamiento aquí: [https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/](https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/)Puedes ver el sitio web en funcionamiento aquí: [https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/](https://fipedruzzi97.github.io/Entrega-Final-CH-PedruzziFiamma/)
-
-
-
-## 🚀 Características## 🚀 Características
-
-
-
-- **Diseño Responsivo**: Adaptable a dispositivos móviles, tablets y desktop- **Diseño Responsivo**: Adaptable a dispositivos móviles, tablets y desktop
-
-- **Navegación Intuitiva**: Menú de navegación limpio y funcional- **Navegación Intuitiva**: Menú de navegación limpio y funcional
-
-- **Secciones Especializadas**:- **Secciones Especializadas**:
-
-  - Destacados  - Destacados
-
-  - Design Talks (con perfiles de diseñadores)  - Design Talks (con perfiles de diseñadores)
-
-  - Galería de proyectos  - Galería de proyectos
-
-  - Formulario de contacto  - Formulario de contacto
-
-- **Optimización SEO**: Meta tags y estructura semántica- **Optimización SEO**: Meta tags y estructura semántica
-
-- **Tipografías Modernas**: Integración con Google Fonts (Bebas Neue, Poppins)- **Tipografías Modernas**: Integración con Google Fonts (Bebas Neue, Poppins)
-
-- **Accesibilidad Mejorada**: Roles ARIA y atributos de accesibilidad
-
-## 🛠️ Tecnologías Utilizadas
-
-## 🛠️ Tecnologías Utilizadas>>>>>>> 38258b51d19c19695ff450e26d3afae914e68401
-
-
-
-- **HTML5**: Estructura semántica del contenido- **HTML5**: Estructura semántica del contenido
-
-- **CSS3/SCSS**: Estilos y diseño responsivo- **CSS3/SCSS**: Estilos y diseño responsivo
-
-- **Bootstrap 5.3.8**: Framework CSS para componentes y grid system- **Bootstrap 5.3.8**: Framework CSS para componentes y grid system
-
-- **JavaScript**: Interactividad y funcionalidades dinámicas- **JavaScript**: Interactividad y funcionalidades dinámicas
-
-- **Google Fonts**: Tipografías personalizadas- **Google Fonts**: Tipografías personalizadas
-
-
-
-## 📁 Estructura del Proyecto<<<<<<< HEAD
+- **HTML5**: Estructura semántica con etiquetas modernas
+- **CSS3/SCSS**: Estilos avanzados con preprocesador SASS
+- **Bootstrap 5.3.8**: Framework CSS para grid system y componentes
+- **JavaScript**: Funcionalidades interactivas (offcanvas, navegación)
+- **Google Fonts**: Tipografías personalizadas de alta calidad
+- **Git & GitHub**: Control de versiones y deployment automático
 
 ## 📁 Estructura del Proyecto
 
 ```
-
-📦 Entrega-Final-CH-PedruzziFiamma```
-
-├── 📄 index.html                 # Página principal📦 Entrega-Final-CH-PedruzziFiamma
-
-├── 📄 README.md                 # Documentación del proyecto├── 📄 index.html                 # Página principal
-
-├── 📂 Pages/                    # Páginas secundarias├── 📄 README.md                 # Documentación del proyecto
-
-│   ├── 📄 contacto.html├── 📂 Pages/                    # Páginas secundarias
-
-│   ├── 📄 destacados.html│   ├── 📄 contacto.html
-
-│   ├── 📄 galeria.html│   ├── 📄 destacados.html
-
-│   └── 📂 design-talks/         # Carpeta renombrada (sin espacios)│   ├── 📄 galeria.html
-
-│       ├── 📄 Airesmateus.html│   └── 📂 Design Talks/
-
-│       ├── 📄 Estudiocampana.html│       ├── 📄 Airesmateus.html
-
-│       ├── 📄 PatrickJouin.html│       ├── 📄 Estudiocampana.html
-
-│       └── 📄 Snøhetta.html│       ├── 📄 PatrickJouin.html
-
-└── 📂 public_html/│       └── 📄 Snøhetta.html
-
-    └── 📂 assets/└── 📂 public_html/
-
-        ├── 📂 css/    └── 📂 assets/
-
-        │   └── 📄 style.css## � Estructura del Proyecto
-
-        ├── 📂 img/              # Imágenes del sitio (nombres actualizados)
-
-        └── 📂 scss/             # Archivos SASS```
-
-            ├── 📄 _each.scss📦 Entrega-Final-CH-PedruzziFiamma
-
-            ├── 📄 _mixins.scss├── 📄 index.html                 # Página principal
-
-            ├── 📄 _variables.scss├── 📄 README.md                 # Documentación del proyecto
-
-            └── 📄 style.scss├── 📂 Pages/                    # Páginas secundarias
-
-```│   ├── 📄 contacto.html
-
-│   ├── 📄 destacados.html
-
-## 🎯 Funcionalidades Principales│   ├── 📄 galeria.html
-
-│   └── 📂 design-talks/         # Carpeta renombrada (sin espacios)
-
-### Página Principal (index.html)│       ├── 📄 Airesmateus.html
-
-- Hero section atractivo│       ├── 📄 Estudiocampana.html
-
-- Sección de destacados│       ├── 📄 PatrickJouin.html
-
-- Acceso directo a Design Talks│       └── 📄 Snøhetta.html
-
-- Footer con información de contacto└── 📂 public_html/
-
+📦 Entrega-Final-CH-PedruzziFiamma
+├── 📄 index.html                 # Página principal
+├── 📄 README.md                  # Documentación del proyecto
+├── 📂 pages/                     # Páginas secundarias (minúsculas)
+│   ├── 📄 contacto.html          # Formulario de contacto
+│   ├── 📄 destacados.html        # Página de noticias destacadas
+│   ├── 📄 galeria.html           # Galería interactiva
+│   └── 📂 design-talks/          # Perfiles de diseñadores
+│       ├── 📄 Airesmateus.html
+│       ├── 📄 Estudiocampana.html
+│       ├── 📄 PatrickJouin.html
+│       └── 📄 Snøhetta.html
+└── 📂 public_html/
     └── 📂 assets/
+        ├── 📂 css/
+        │   ├── 📄 style.css      # CSS compilado
+        │   └── 📄 style.css.map  # Source map
+        ├── 📂 scss/              # Archivos fuente SASS
+        │   ├── 📄 style.scss     # Archivo principal
+        │   ├── 📄 _variables.scss # Variables de colores y fuentes
+        │   ├── 📄 _mixins.scss    # Mixins reutilizables
+        │   └── 📄 _each.scss      # Loops para clases utilitarias
+        └── 📂 img/               # Imágenes optimizadas
+```
 
-### Design Talks        ├── 📂 css/
+## 🎨 Paleta de Colores
 
-Perfiles detallados de reconocidos diseñadores y estudios:        │   └── 📄 style.css
+El sitio utiliza una paleta de colores sofisticada y profesional:
 
-- **Aires Mateus**: Arquitectos portugueses        ├── 📂 img/              # Imágenes del sitio
+- **🔴 Primary**: `#A2231D` (Rojo Carmín) - Color principal de la marca
+- **🔵 Secondary**: `#00171F` (Azul Marino) - Acentos y elementos secundarios  
+- **🤎 Tertiary**: `#3D0C11` (Marrón Oscuro) - Detalles y texturas
+- **⚫ Dark**: `#000000` - Textos principales
+- **⚪ Light**: `#FFFFFF` - Fondos y contraste
+- **🔘 Gray**: `#D9D9D9` - Elementos neutros
 
-- **Estudio Campana**: Diseñadores brasileños        └── 📂 scss/             # Archivos SASS
+## 📱 Responsive Design
 
-- **Patrick Jouin**: Diseñador francés            ├── 📄 _each.scss
+El sitio está optimizado para:
+- **📱 Mobile First**: Diseño prioritario para dispositivos móviles
+- **📟 Tablets**: Adaptación perfecta a pantallas medianas
+- **💻 Desktop**: Experiencia completa en pantallas grandes
+- **🖥️ Large Screens**: Escalado apropiado para monitores amplios
 
-- **Snøhetta**: Estudio de arquitectura noruego            ├── 📄 _mixins.scss
+## 🚀 Instalación y Uso
 
-            ├── 📄 _variables.scss
+### Clonar el repositorio
+```bash
+git clone https://github.com/fipedruzzi97/Entrega-Final-CH-PedruzziFiamma.git
+cd Entrega-Final-CH-PedruzziFiamma
+```
 
-### Galería            └── 📄 style.scss
+### Para desarrollo con SCSS
+```bash
+# Instalar SASS (si no lo tienes)
+npm install -g sass
 
-- Showcase de proyectos de diseño```
+# Compilar SCSS en modo watch
+sass --watch public_html/assets/scss/style.scss:public_html/assets/css/style.css
+```
 
-- Presentación visual de trabajos destacados
+### Para deployment
+- El sitio está listo para cualquier servidor web
+- GitHub Pages configurado automáticamente
+- Todas las rutas son relativas
 
-## 🎯 Funcionalidades Principales
+## ✅ Cumplimiento de Requisitos Académicos
 
-### Contacto
+### Estructura HTML (Óptimo)
+- ✅ 8 páginas HTML (supera las 5 requeridas)
+- ✅ Etiquetas semánticas (header, main, section, article, footer)
+- ✅ H1 único en cada página
+- ✅ Meta tags SEO completos
+- ✅ Atributos ARIA para accesibilidad
 
-- Formulario de contacto funcional### Página Principal (index.html)
+### Estilos CSS (Óptimo)
+- ✅ SASS con estructura modular
+- ✅ Bootstrap 5.3.8 correctamente implementado
+- ✅ Responsive design sin overflow-x
+- ✅ Animaciones y transiciones suaves
 
-- Información de ubicación y redes sociales- Hero section atractivo
+### Contenido y Diseño (Óptimo)
+- ✅ Identidad visual coherente
+- ✅ Navegación intuitiva
+- ✅ Contenido relevante y bien estructurado
+- ✅ Imágenes optimizadas y funcionales
 
-- Sección de destacados
-
-## 🎨 Paleta de Colores- Acceso directo a Design Talks
-
-- Footer con información de contacto
-
-El sitio utiliza una paleta de colores sofisticada basada en tonos rojos carmín, complementada con neutros para crear un ambiente elegante y profesional.
-
-### Design Talks
-
-## ✅ Mejoras ImplementadasPerfiles detallados de reconocidos diseñadores y estudios:
-
-- **Aires Mateus**: Arquitectos portugueses
-
-Este proyecto incluye las siguientes mejoras técnicas sugeridas:- **Estudio Campana**: Diseñadores brasileños
-
-- **Patrick Jouin**: Diseñador francés
-
-- **Archivos Renombrados**: Eliminación de espacios y mayúsculas en nombres de archivos y carpetas- **Snøhetta**: Estudio de arquitectura noruego
-
-- **Estructura Bootstrap Corregida**: Columnas que suman correctamente 12 en cada row
-
-- **Atributos Class Unificados**: Eliminación de clases duplicadas en elementos### Galería
-
-- **SEO Mejorado**: Meta description y keywords agregados- Showcase de proyectos de diseño
-
-- **Accesibilidad**: Roles ARIA y labels descriptivos para mejor experiencia de usuario- Presentación visual de trabajos destacados
-
-- **Navegación Semántica**: IDs correctos para enlaces internos
-
-### Contacto
-
-## 👤 Autor- Formulario de contacto funcional
-
-- Información de ubicación y redes sociales
+## 👤 Autor
 
 **Fiamma Pedruzzi**
+- 👩‍💻 GitHub: [@fipedruzzi97](https://github.com/fipedruzzi97)
+- 📧 Email: fipedruzzi97@gmail.com
+- 🎓 Estudiante: Desarrollo Web - CoderHouse
 
-- GitHub: [@fipedruzzi97](https://github.com/fipedruzzi97)<<<<<<< HEAD
+## 📚 Curso
 
-- Email: fipedruzzi97@gmail.com## 🎨 Paleta de Colores
-
-
-
-## 📚 CursoEl sitio utiliza una paleta de colores sofisticada basada en tonos rojos carmín, complementada con neutros para crear un ambiente elegante y profesional.
-
-
-
-Este proyecto fue desarrollado como entrega final del curso de **Desarrollo Web** en **CoderHouse**.## 👤 Autor
-
-=======
-
-## ⚠️ Aviso Legal##  Paleta de Colores
-
-
-
-**ESTA PÁGINA NO TIENE FINES DE LUCRO, NO SOY DUEÑA DE LAS IMÁGENES Y FUE INSPIRADA EN OTRAS PÁGINAS COMO https://roomdiseno.com/**El sitio utiliza una paleta de colores sofisticada basada en tonos rojos carmín, complementada con neutros para crear un ambiente elegante y profesional.
-
-
-
-Este sitio web fue desarrollado únicamente con propósitos educativos y de aprendizaje. Las imágenes utilizadas pertenecen a sus respectivos propietarios y se emplean bajo el contexto de uso educativo.## Autor
-
->>>>>>> 38258b51d19c19695ff450e26d3afae914e68401
+Este proyecto fue desarrollado como **Proyecto Final** del curso de **Desarrollo Web** en **CoderHouse**, aplicando todas las tecnologías y mejores prácticas aprendidas durante el curso.
 
 ## 📄 Licencia
 
-**Fiamma Pedruzzi**
-
-Este proyecto fue creado con fines educativos como parte del curso de CoderHouse.- GitHub: [@fipedruzzi97](https://github.com/fipedruzzi97)
-
-- Email: fipedruzzi97@gmail.com
-
----
-
-<<<<<<< HEAD
-
-⭐ Si te gustó este proyecto, no olvides darle una estrella en GitHub!## 📚 Curso
-
-Este proyecto fue desarrollado como entrega final del curso de **Desarrollo Web** en **CoderHouse**.
-
-## 📄 Licencia
-
-Este proyecto fue creado con fines educativos como parte del curso de CoderHouse.
+Este proyecto fue creado con fines educativos como parte del programa académico de CoderHouse.
 
 ## ⚠️ Aviso Legal
 
-**ESTA PÁGINA NO TIENE FINES DE LUCRO, NO SOY DUEÑA DE LAS IMÁGENES Y FUE INSPIRADA EN OTRAS PÁGINAS COMO https://roomdiseno.com/**
+**Uso Educativo**: Este sitio web fue desarrollado únicamente con propósitos educativos y de aprendizaje. Las imágenes utilizadas pertenecen a sus respectivos propietarios y se emplean bajo el contexto de uso académico. No tiene fines comerciales.
 
-Este sitio web fue desarrollado únicamente con propósitos educativos y de aprendizaje. Las imágenes utilizadas pertenecen a sus respectivos propietarios y se emplean bajo el contexto de uso educativo.
+**Inspiración**: El diseño toma inspiración de sitios profesionales como roomdiseno.com, adaptado completamente para fines educativos.
 
 ---
 
-⭐ Si te gustó este proyecto, no olvides darle una estrella en GitHub!
-=======
->>>>>>> 38258b51d19c19695ff450e26d3afae914e68401
+⭐ **Si te gustó este proyecto, no olvides darle una estrella en GitHub!**
