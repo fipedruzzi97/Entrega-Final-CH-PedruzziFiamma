@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="public_html/assets/img/Icono Logo.png">
+    <link rel="icon" type="image/png" href="public_html/assets/img/icono-logo.png">
+    <meta name="description" content="Rojo Carmín - Sitio web de diseño y arquitectura con destacados, Design Talks, galería y más. Proyecto educativo inspirado en el mundo del diseño contemporáneo.">
+    <meta name="keywords" content="diseño, arquitectura, arte, design talks, galería, Aires Mateus, Estudio Campana, Patrick Jouin, Snøhetta">
     <title>Rojo Carmín</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +23,18 @@
         <section class="row menu-busqueda">
             <article class="col-7 logo-menu">
                 <img src="public_html/assets/img/Logo.png" alt="logo-rojocarmin">
-                <nav>
+                <nav role="navigation" aria-label="Navegación principal">
                     <ul class="menunav">
-                        <li><a href="#main">DESTACADOS</a></li>
-                        <li><a href="#designtalks">DESIGN TALKS</a></li>
-                        <li><a href="./Pages/galeria.html">GALERIA</a></li>
-                        <li><a href="./Pages/contacto.html">CONTACTO</a></li>
+                        <li><a href="#main" aria-label="Ir a sección destacados">DESTACADOS</a></li>
+                        <li><a href="#designtalks" aria-label="Ir a sección design talks">DESIGN TALKS</a></li>
+                        <li><a href="./Pages/galeria.html" aria-label="Ir a galería">GALERIA</a></li>
+                        <li><a href="./Pages/contacto.html" aria-label="Ir a contacto">CONTACTO</a></li>
                     </ul>
                 </nav>
             </article>
             <article class="col-5 busqueda-clubcarmin">
-                <form><input type="search" placeholder="Busca tu contenido aquí" class="busqueda"></form>
-                <a href="#clubcarmin" class="btn-primary">CLUB CARMÍN</a>
+                <form role="search"><input type="search" placeholder="Busca tu contenido aquí" class="busqueda" aria-label="Campo de búsqueda"></form>
+                <a href="#clubcarmin" class="btn-primary" role="button" aria-label="Unirse al Club Carmín">CLUB CARMÍN</a>
             </article>
         </section>
     </header>
@@ -47,7 +49,7 @@
                             primer gran laboratorio artístico europeo dedicado a explorar cómo el arte contemporáneo
                             dialoga, resiste o se pliega ante el imperio del algoritmo.</p>
                         <p>JULIO 9, 2025 | PACO ARTEAGA</p>
-                        <a class="ver-mas" href="./Pages/destacados.html" class="btn-secondary p-20">Ver más</a>
+                        <a class="ver-mas btn-secondary p-20" href="./Pages/destacados.html" role="button" aria-label="Ver más noticias destacadas">Ver más</a>
                     </article>
                     <article>
                         <img src="public_html/assets/img/image-main.png" alt="destacados">
@@ -66,8 +68,7 @@
                         <img src="public_html/assets/img/PJ.png" alt="PatrickJouin">
                         <h3>Patrick Jouin.</h3>
                         <p>De la poética al diseño (Live)</p>
-                        <a class="descubrir" href="./Pages/Design Talks/PatrickJouin.html"
-                            class="btn-primary">DESCUBRIR</a>
+                        <a class="descubrir btn-primary" href="./Pages/design-talks/PatrickJouin.html" role="button" aria-label="Descubrir más sobre Patrick Jouin">DESCUBRIR</a>
                     </div>
                 </article>
                 <article class="col-3 designtalks">
@@ -75,7 +76,7 @@
                         <img src="public_html/assets/img/schnoe.png" alt="Snøhetta">
                         <h3>Snøhetta.</h3>
                         <p>La arquitectura Escandinava</p>
-                        <a class="descubrir" href="./Pages/Design Talks/Snøhetta.html" class="btn-primary">DESCUBRIR</a>
+                        <a class="descubrir btn-primary" href="./Pages/design-talks/Snøhetta.html" role="button" aria-label="Descubrir más sobre Snøhetta">DESCUBRIR</a>
                     </div>
                 </article>
                 <article class="col-3 designtalks">
@@ -83,8 +84,7 @@
                         <img src="public_html/assets/img/estudiocampana.png" alt="estudiocampana">
                         <h3>Estudio Campana</h3>
                         <p>Live Chat</p>
-                        <a class="descubrir" href="./Pages/Design Talks/Estudiocampana.html"
-                            class="btn-primary">DESCUBRIR</a>
+                        <a class="descubrir btn-primary" href="./Pages/design-talks/Estudiocampana.html" role="button" aria-label="Descubrir más sobre Estudio Campana">DESCUBRIR</a>
                     </div>
                 </article>
                 <article class="col-3 designtalks">
@@ -92,8 +92,7 @@
                         <img src="public_html/assets/img/airesmateus.png" alt="AiresMateus">
                         <h3>Aires Mateus</h3>
                         <p>La nueva arquitectura</p>
-                        <a class="descubrir" href="./Pages/Design Talks/Airesmateus.html"
-                            class="btn-primary">DESCUBRIR</a>
+                        <a class="descubrir btn-primary" href="./Pages/design-talks/Airesmateus.html" role="button" aria-label="Descubrir más sobre Aires Mateus">DESCUBRIR</a>
                     </div>
                 </article>
             </div>
@@ -114,27 +113,31 @@
                             compartirse.</p>
                     </div>
                 </article>
-                <img src="public_html/assets/img/imgqs.png" alt="quienes somos" class="col-10">
-                <div class="row fichas-qs">
-                    <article class="col-2">
-                        <div class="ficha">
-                            <p class="texto-principal-ficha text-primary">+15</p>
-                            <p class="bajada-ficha">PAÍSES</p>
-                        </div>
-                    </article>
-                    <article class="col-2">
-                        <div class="ficha">
-                            <p class="texto-principal-ficha text-primary"> 17 M</p>
-                            <p class="bajada-ficha">VISITANTES MENSUALES</p>
-                        </div>
-                    </article>
-                    <article class="col-2">
-                        <div class="ficha">
-                            <p class="texto-principal-ficha text-primary">90%</p>
-                            <p class="bajada-ficha">SUSCRIPTORES</p>
-                        </div>
-                    </article>
-                </div>
+                <article class="col-10">
+                    <img src="public_html/assets/img/imgqs.png" alt="quienes somos" class="img-fluid">
+                </article>
+                <article class="col-12">
+                    <div class="row fichas-qs justify-content-center">
+                        <article class="col-md-4 col-sm-6">
+                            <div class="ficha">
+                                <p class="texto-principal-ficha text-primary">+15</p>
+                                <p class="bajada-ficha">PAÍSES</p>
+                            </div>
+                        </article>
+                        <article class="col-md-4 col-sm-6">
+                            <div class="ficha">
+                                <p class="texto-principal-ficha text-primary"> 17 M</p>
+                                <p class="bajada-ficha">VISITANTES MENSUALES</p>
+                            </div>
+                        </article>
+                        <article class="col-md-4 col-sm-6">
+                            <div class="ficha">
+                                <p class="texto-principal-ficha text-primary">90%</p>
+                                <p class="bajada-ficha">SUSCRIPTORES</p>
+                            </div>
+                        </article>
+                    </div>
+                </article>
             </div>
         </section>
         <section class="suscribirse container-fluid" id="clubcarmin">
