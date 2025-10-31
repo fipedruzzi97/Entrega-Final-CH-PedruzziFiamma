@@ -238,7 +238,7 @@ ul.menunav {
   align-items: center;
   gap: 10px;
   border-radius: 30px;
-  border: 2px solid #A2231D;
+  border: 2px solid #00171F;
   background: rgba(255, 255, 255, 0);
   color: #fff;
   font-family: "Bebas Neue", sans-serif;
@@ -1773,6 +1773,130 @@ section.susc-contacto {
   .correo-suscribirse button.suscribirse {
     width: 100%;
     border-radius: 12px;
+  }
+}
+.offcanvas {
+  background-color: #FDFDFD;
+  border-left: 3px solid #A2231D;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+}
+.offcanvas .offcanvas-header {
+  background-color: #491311;
+  color: #fff;
+  border-bottom: 2px solid #3D0C11;
+  padding: 1.5rem;
+}
+.offcanvas .offcanvas-header .offcanvas-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.offcanvas .offcanvas-header .btn-close {
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  filter: none;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.offcanvas .offcanvas-header .btn-close:hover {
+  background-color: #D9D9D9;
+  transform: scale(1.1);
+}
+.offcanvas .offcanvas-body {
+  padding: 1.5rem;
+  background-color: #FDFDFD;
+}
+.offcanvas .offcanvas-body .card {
+  border: 1px solid #D9D9D9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.offcanvas .offcanvas-body .card:hover {
+  box-shadow: 0 4px 15px rgba(162, 35, 29, 0.2);
+  transform: translateY(-3px);
+}
+.offcanvas .offcanvas-body .card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.offcanvas .offcanvas-body .card .card-img-top:hover {
+  transform: scale(1.05);
+}
+.offcanvas .offcanvas-body .card .card-body {
+  padding: 1.25rem;
+  background-color: #fff;
+}
+.offcanvas .offcanvas-body .card .card-body .card-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  color: #00171F;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.5px;
+}
+.offcanvas .offcanvas-body .card .card-body .card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #5b5f61;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.offcanvas .offcanvas-body .card .card-body .btn {
+  background-color: #A2231D;
+  border: none;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14px;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+.offcanvas .offcanvas-body .card .card-body .btn:hover {
+  background-color: #3D0C11;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(162, 35, 29, 0.3);
+  color: #fff;
+}
+.offcanvas .offcanvas-body .card .card-body .btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 85% !important;
+  }
+  .offcanvas .offcanvas-header {
+    padding: 1rem;
+  }
+  .offcanvas .offcanvas-header .offcanvas-title {
+    font-size: 18px;
+  }
+  .offcanvas .offcanvas-body {
+    padding: 1rem;
+  }
+  .offcanvas .offcanvas-body .card .card-img-top {
+    height: 150px;
+  }
+  .offcanvas .offcanvas-body .card .card-body {
+    padding: 1rem;
+  }
+  .offcanvas .offcanvas-body .card .card-body .card-title {
+    font-size: 16px;
+  }
+  .offcanvas .offcanvas-body .card .card-body .card-text {
+    font-size: 12px;
+  }
+  .offcanvas .offcanvas-body .card .card-body .btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 12px;
   }
 }
 

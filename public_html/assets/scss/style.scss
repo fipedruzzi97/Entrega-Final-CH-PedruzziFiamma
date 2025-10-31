@@ -167,7 +167,7 @@ ul.menunav {
   align-items: center;
   gap: 10px;
   border-radius: 30px;
-  border: 2px solid $color-primary;
+  border: 2px solid $color-secondary;
   background: rgba(255, 255, 255, 0.00);
   color: $color-light;
   font-family: $font-primary;
@@ -1876,6 +1876,158 @@ section.susc-contacto {
     button.suscribirse {
       width: 100%;
       border-radius: 12px;
+    }
+  }
+}
+
+// === OFFCANVAS STYLES ===
+.offcanvas {
+  background-color: $color-light-alt;
+  border-left: 3px solid $color-primary;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+  .offcanvas-header {
+    background-color: $color-dark-alt;
+    color: $color-light;
+    border-bottom: 2px solid $color-tertiary;
+    padding: 1.5rem;
+
+    .offcanvas-title {
+      font-family: $font-primary;
+      font-size: $font-size-xl;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    .btn-close {
+      background-color: $color-light;
+      border-radius: 50%;
+      opacity: 1;
+      filter: none;
+      width: 1.5rem;
+      height: 1.5rem;
+
+      &:hover {
+        background-color: $color-gray;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .offcanvas-body {
+    padding: 1.5rem;
+    background-color: $color-light-alt;
+
+    .card {
+      border: 1px solid $color-gray;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      overflow: hidden;
+
+      &:hover {
+        box-shadow: 0 4px 15px rgba(162, 35, 29, 0.2);
+        transform: translateY(-3px);
+      }
+
+      .card-img-top {
+        height: 180px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      .card-body {
+        padding: 1.25rem;
+        background-color: $color-light;
+
+        .card-title {
+          font-family: $font-primary;
+          font-size: $font-size-lg;
+          color: $color-secondary;
+          margin-bottom: 0.75rem;
+          letter-spacing: 0.5px;
+        }
+
+        .card-text {
+          font-family: $font-secondary;
+          font-size: $font-size-base;
+          color: $color-gray-dark;
+          line-height: 1.5;
+          margin-bottom: 1rem;
+        }
+
+        .btn {
+          background-color: $color-primary;
+          border: none;
+          color: $color-light;
+          font-family: $font-primary;
+          font-size: $font-size-base;
+          padding: 0.6rem 1.5rem;
+          border-radius: 25px;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          transition: all 0.3s ease;
+          text-decoration: none;
+          display: inline-block;
+
+          &:hover {
+            background-color: $color-tertiary;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(162, 35, 29, 0.3);
+            color: $color-light;
+          }
+
+          &:active {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+// responsividad offcanvas
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 85% !important;
+
+    .offcanvas-header {
+      padding: 1rem;
+
+      .offcanvas-title {
+        font-size: $font-size-lg;
+      }
+    }
+
+    .offcanvas-body {
+      padding: 1rem;
+
+      .card {
+        .card-img-top {
+          height: 150px;
+        }
+
+        .card-body {
+          padding: 1rem;
+
+          .card-title {
+            font-size: $font-size-md;
+          }
+
+          .card-text {
+            font-size: $font-size-small + 2px;
+          }
+
+          .btn {
+            padding: 0.5rem 1.2rem;
+            font-size: $font-size-small + 2px;
+          }
+        }
+      }
     }
   }
 }
